@@ -1,0 +1,32 @@
+
+.navbar {
+    background-color: rgba(151, 237, 108, 0.934);
+font-size: 1.3rem;
+}
+
+.nav-link {
+    color: black;
+
+}
+
+.btn-outline-success {
+    color: rgb(0, 0, 0);
+
+}
+
+
+.nav {
+    --bs-nav-link-hover-color: #198754;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#logo{
+        width: 15%;
+        height: auto;
+    }
