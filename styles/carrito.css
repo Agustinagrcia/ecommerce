@@ -1,0 +1,75 @@
+
+h1 { 
+    display: flex;
+    background-color: aqua;
+}
+
+.caja-contenedora {
+    display: grid;
+padding: 3%;
+    gap: 30px;
+    background-color: yellow;
+    height: 80vh;
+    justify-content: center;
+    width: 100%;
+    grid-template-areas: 
+    "caja1 caja1 caja3"
+    "caja2 caja2 caja3";
+
+}
+
+.caja {
+    background-color: bisque;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.caja1 {
+ grid-area: caja1;
+ width: 120vh;
+}
+
+.caja2 {
+grid-area: caja2;
+}
+
+.caja3 { 
+    display: flex;
+grid-area: caja3;
+height: 45vh;
+width: 50vh;
+}
+
+.producto img { 
+width: 80px;
+}
+
+.card-header1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn btn-primary {
+    display: flex;
+    align-items: center;
+}
+
+.card-footer { 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cajatotal {
+    display: grid;
+    gap: 5%;
+    grid-template-areas:
+    "cajatotal cajamonto";
+    width: 100%;
+}
+
+.cajamonto {
+    display: flex;
+    align-items: flex-end;
+    
+}
