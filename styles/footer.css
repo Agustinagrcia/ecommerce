@@ -3,10 +3,6 @@ body {min-height: 100vh;
     flex-direction: column;
 }
 
-main {
-    flex: 1;
-}
-
 footer {
     height: 30vh;
     background-color: #01243c;
