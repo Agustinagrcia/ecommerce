@@ -1,10 +1,6 @@
-body {min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 
 footer {
-    height: 30vh;
+    height: 25vh;
     background-color: #01243c;
     color: white;
     display: flex;
