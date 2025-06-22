@@ -1,43 +1,63 @@
 
-h1 { 
+
+#pagcarrito{
+    margin: 0%;
+    padding: 0%;
     display: flex;
-    background-color: aqua;
-}
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    background-color: #cbd5e1;}
+
 
 .caja-contenedora {
     display: grid;
 padding: 3%;
-    gap: 30px;
-    background-color: yellow;
-    height: 80vh;
-    justify-content: center;
-    width: 100%;
+    gap: 5%;
+    column-gap: 5%;
+   /* background-color: yellow; */
+    height: 100%;
+
+    width: 90vw;
+    
     grid-template-areas: 
     "caja1 caja1 caja3"
     "caja2 caja2 caja3";
+    
 
 }
 
 .caja {
-    background-color: bisque;
-    border: 2px solid black;
+     background-color: #caedfd;
+    /* border: 1px solid black; */
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
+       border-radius: 8px;
 }
 
 .caja1 {
+    display: flex;
+   align-items: start;
  grid-area: caja1;
- width: 120vh;
+ width: 100%;
+ height: 90%;
+   column-gap: 5%;
 }
 
 .caja2 {
 grid-area: caja2;
+width: 100% ;
+height: 90%;
+  column-gap: 5%;
 }
 
 .caja3 { 
     display: flex;
 grid-area: caja3;
-height: 45vh;
-width: 50vh;
+height: 100%;
+width: 80%;
+  column-gap: 5%;
 }
 
 .producto img { 
@@ -72,4 +92,8 @@ width: 80px;
     display: flex;
     align-items: flex-end;
     
+}
+
+.table {
+    width: 100%;
 }
