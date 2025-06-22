@@ -1,0 +1,56 @@
+#nosotrospage {
+    background-color: #0886b0;
+    color: #ccc;
+}
+
+.team-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.team-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.team-descripcion {
+    max-width: 50%;
+    margin: 0 auto 40px auto;
+    font-size: 1.1em;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.team-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.team-miembro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    transition: transform 0.3s ease
+}
+
+.team-miembro:hover {
+    transform: scale(1.2);
+    /* Aumenta un 5% el tamaño*/
+}
+
+.team-miembro img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-miembro p {
+    font-size: 1em;
+    font-weight: 500;
+}
