@@ -2,12 +2,12 @@
     margin: 0%;
     padding: 4%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+flex-direction: column;
     height: auto;
     width: 100%;
+    display: flex;
+    justify-content: row;
     background-color: #caedfd;}
-
 .caja-contenedora{
    
     display: grid;
@@ -17,7 +17,8 @@
     height: 100%;
     background-color: #caedfd;
     grid-template-areas:
-     "caja1 caja2";
+     "caja1 caja2"
+     "caja3 caja3";
 
 }
 
@@ -52,4 +53,37 @@ height: 100%;
 
 .cantidadproducto {
     width: 35px;
+}
+
+.carouseldeproductos {
+    background-color: #caedfd;
+    
+    /* height: 5rem%; */
+}
+
+/* .carousel-inner {
+display: flex;
+flex-direction: row;
+} */
+/* .carousel-item  {
+    display: flex;
+flex-direction: row;
+} */
+/* 
+:active {
+    display: flex;
+    flex-direction: row;
+} */
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   /* border: 2px solid black;
+    */
+   
+}
+.card {
+    /* border: 2px solid black; */
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+       border-radius: 8px;
 }
