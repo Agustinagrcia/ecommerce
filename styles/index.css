@@ -9,8 +9,8 @@ h1{
   padding: 20px;
 }
 #video{
-    margin-left: 50vw;
-    transform: translate(-50%);
+    margin-left: 35vw;
+    transform: translate(-25%);
     padding: 20px;
 }
 @media (min-width: 380px) and (max-width: 1440px) {
