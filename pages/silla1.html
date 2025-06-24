@@ -87,11 +87,33 @@
         </div> -->
         <div class="caja-contenedora">
             <div class="caja1 caja">
-                <img src="../assets/silla 1.webp" width="100%">
-
+                <!-- <img src="../assets/silla 1.webp" width="100%"> -->
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../assets/silla 1.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/silla 1.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/silla 1.webp" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
             <div class="caja2 caja">
-                
+
 
                 <div class="product-description-section">
                     <p>Nuevo</p>
@@ -99,29 +121,30 @@
                     <p class="product-category">Silla masajeadora negra</p>
 
                     <div class="price-info">
-                        <p class="price">$ 189.491</p>
-                        <p class="tax-info">Precio sin impuestos nacionales: $ 179.999</p>
+                        <p class="price">$ 189.491 ARS</p>
+                        <p class="tax-info">6 x $6.999,83 sin interés</p>
+                        <p><span class="icon">💳</span> VISA BANCARIA 3 cuotas sin interés de <strong>$126.000</strong>
+                        </p>
                     </div>
 
                     <div class="payment-options">
-                        <p><span class="icon">💳</span> VISA BANCARIA 3 cuotas sin interés de <strong>$126.000</strong>
-                        </p>
-                        <p><span class="icon">💳</span> OTRAS tarjetas bancarias 3 cuotas de <strong>$144.900</strong>
-                            ($434.700)</p>
-                        <p><span class="icon">💳</span> Cuota Simple 6 cuotas de <strong>$76.230</strong> ($457.380)</p>
-                        <p><span class="icon">💳</span> Naranja 5 cuotas de <strong>$91.476</strong> ($457.380)</p>
-                        <p><span class="icon">💳</span> Naranja 6 cuotas de <strong>$78.120</strong> ($468.720)</p>
-                        <p><span class="icon">💳</span> Naranja 10 cuotas de <strong>$51.030</strong> ($510.300)</p>
-                    </div>
 
+                        <div class="input-group">
+                            <button class="btn btn-outline-secondary" type="button" id="button-minus">-</button>
+                            <input type="number" class="cantidadproducto" value="0" id="quantity" min="0">
+                            <button class="btn btn-outline-secondary" type="button" id="button-plus">+</button>
+                                 <button class="add-to-cart-button">Agregar al carrito</button>
+                        </div>
+                    </div>
+                    <!-- 
                     <div class="quantity-selector">
                         <label for="quantity">Cantidad:</label>
                         <input type="number" id="quantity" value="1" min="1" max="2">
                         <span>(2 disponible)</span>
                         <button class="arrow-button">></button>
-                    </div>
+                    </div> -->
 
-                    <button class="add-to-cart-button">Agregar al carrito</button>
+               
 
                     <p class="protected-purchase"><span class="icon">✅</span> Compra protegida.</p>
                 </div>
