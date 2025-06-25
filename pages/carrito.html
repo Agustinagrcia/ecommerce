@@ -9,12 +9,10 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/footer.css">
-    <link rel="stylesheet" href="../styles/carrito.css">
     <title>Document</title>
 </head>
-
 <body>
-     <header>
+    <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" id="logo" href="../index.html">
@@ -25,39 +23,29 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <ul class="nav nav-underline">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Categoria
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="../pages/sillas.html">Sillas</a></li>
-                                    <li><a class="dropdown-item" href="../pages/escritorio.html">Escritorios</a></li>
-                                    <li><a class="dropdown-item" href="../pages/computadoras.html">Computadoras</a></li>
-                                    <li><a class="dropdown-item" href="../pages/fichero.html">Fichero</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                            </li>
-                        </ul>
-                        <nav class="navbar">
-                            <form class="container-fluid justify-content-start">
-                                <a href="../pages/login.html"><button class="btn btn-outline-success me-2"
-                                        type="button">Ingreso</button></a>
-                                <a href="../pages/registro.html"><button class="btn btn-outline-success me-2"
-                                        type="button">Registro</button></a>
-                            </form>
-                        </nav>
-                        <div>
-                            <a href="../pages/carrito.html" class="cart-button">
-                                🛒 <span>Carrito</span>
-                            </a>
-                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/producto.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <nav class="navbar">
+                        <form class="container-fluid justify-content-start">
+                            <a href="../pages/login.html"><button class="btn btn-outline-success me-2"
+                                    type="button">Ingreso</button></a>
+                            <a href="../pages/registro.html"><button class="btn btn-outline-success me-2"
+                                    type="button">Registro</button></a>
+                        </form>
+                    </nav>
+                    <div>
+                        <a href="../pages/carrito.html" class="cart-button">
+                            🛒 <span>Carrito</span>
+                        </a>
+                    </div>
                 </div>
                 <nav class="navbar">
                     <div class="container-fluid">
@@ -70,84 +58,7 @@
             </div>
         </nav>
     </header>
-    <main id="pagcarrito">
-        <div class="caja-contenedora">
-            <div class="caja1 caja">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">Producto</th>
-                            <th scope="col">Cantidad</th>
-                            <th scope="col">Precio</th>
-                            <th scope="col">Quitar</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row"><img src="../assets/escritorio1.webp" width="80px"></th>
-                            <td>1</td>
-                            <td>$380.000</td>
-                            <td>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-                                    <label class="form-check-label" for="checkDefault">
-                                    </label>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="caja2 caja">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">Producto</th>
-                            <th scope="col">Cantidad</th>
-                            <th scope="col">Precio</th>
-                            <th scope="col">Quitar</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row"><img src="../assets/escritorio1.webp" width="80px"></th>
-                            <td>1</td>
-                            <td>$380.000</td>
-                            <td>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-                                    <label class="form-check-label" for="checkDefault">
-                                    </label>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="caja3 caja">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-header">
-                        Resumen de Compra
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Productos</li>
-                        <li class="list-group-item">Envios</li>
-                        <li class="list-group-item"></li>
-                    </ul>
-                    <div class="card-footer">
-                        <div class="cajatotal">
-                            <div class="cajatotal">total</div>
-                            <div class="cajamonto">0980</div>
-                        </div>
-
-                        <a class="btn btn-primary" href="../pages/404.html" role="button">Continuar compra</a>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </main>
+    <main></main>
     <footer>
         <div id="info">
             <h2>SERVICIO AL CLIENTE</h2>
@@ -162,12 +73,10 @@
                     alt="facebook logo"></a>
             <a href="https://web.whatsapp.com/" target="_blank"> <img src="../assets/whatsapp-logo-png-white.png"></a>
         </div>
-        <div id="contenedorlogodelsitio"><a href="../index.html"><img src="../assets/logoworkify.png" alt="logo"></a>
-        </div>
+        <div id="contenedorlogodelsitio"><a href="../index.html"><img src="../assets/logoworkify.png" alt="logo"></a></div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
