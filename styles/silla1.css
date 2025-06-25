@@ -19,6 +19,8 @@ flex-direction: column;
     grid-template-areas:
      "caja1 caja2"
      "caja3 caja3";
+     margin-top: 0%;
+     margin-bottom: 30px;
 
 }
 
@@ -86,4 +88,10 @@ flex-direction: row;
     /* border: 2px solid black; */
        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
        border-radius: 8px;
+       min-width: 100px;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
