@@ -6,7 +6,7 @@
 .cart-button {
     display: flex;
     align-items: center;
-    background-color: rgba(151, 237, 108, 0.934);
+    background-color: blue;
     color: rgb(9, 0, 0);
     border: 1px solid color black;
     border-radius: 5px;
@@ -17,7 +17,7 @@
 }
 
 .cart-button:hover {
-    background-color: #198754;
+    background-color:blue;
 }
 
 .cart-button span {
