@@ -9,8 +9,8 @@ h1{
   padding: 20px;
 }
 #video{
-    margin-left: 50vw;
-    transform: translate(-50%);
+    margin-left: 35vw;
+    transform: translate(-25%);
     padding: 20px;
 }
 @media (min-width: 380px) and (max-width: 1440px) {
@@ -26,3 +26,41 @@ h1{
 .carousel-inner{
  height: 50%;
 }
+.banner {
+      background-color: rgba(244, 102, 7, 0.849);
+      color:black;
+      text-align: center;
+      padding: 5px;
+      position: relative;
+      font-size: 1rem;
+      height: 5%;
+    }
+
+   
+    .banner a {
+      display: inline-block;
+      background-color: rgba(255, 149, 0, 0.815);
+      color: black;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .banner a:hover {
+      background-color: rgba(255, 166, 0, 0.211);
+    }
+
+   
+    @media (max-width: 768px) {
+      .banner {
+        display: none;
+      }
+    }
+    .carousel-control-next-icon{
+     height: 30px;
+      
+    }
+    #icons{
+      color: black;
+    }
