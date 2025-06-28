@@ -1,14 +1,6 @@
-body {min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1;
-}
 
 footer {
-    height: 30vh;
+    height: 25vh;
     background-color: #01243c;
     color: white;
     display: flex;
@@ -21,7 +13,6 @@ footer h2 {
 
 #contenedorlogodelsitio {
     width: 25%;
-    height: 50%;
     text-align: center;
 }
 
