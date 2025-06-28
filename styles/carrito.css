@@ -1,6 +1,4 @@
-
-
-#pagcarrito{
+#pagcarrito {
     margin: 0%;
     padding: 0%;
     display: flex;
@@ -9,60 +7,61 @@
     justify-content: center;
     height: auto;
     width: 100%;
-    background-color: #cbd5e1;}
+    background-color: #cbd5e1;
+}
 
 
 .caja-contenedora {
     display: grid;
-padding: 3%;
+    padding: 3%;
     gap: 5%;
     column-gap: 5%;
-   /* background-color: yellow; */
+    /* background-color: yellow; */
     height: 100%;
 
-    width: 90vw;
-    
-    grid-template-areas: 
-    "caja1 caja1 caja3"
-    "caja2 caja2 caja3";
-    
+    width: 100%;
+
+    grid-template-areas:
+        "caja1 caja1 caja3"
+        "caja2 caja2 caja3";
+
 
 }
 
 .caja {
-     background-color: #caedfd;
+    background-color: #caedfd;
     /* border: 1px solid black; */
-       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-       border-radius: 8px;
+    border-radius: 8px;
 }
 
 .caja1 {
     display: flex;
-   align-items: start;
- grid-area: caja1;
- width: 100%;
- height: 90%;
-   column-gap: 5%;
+    align-items: start;
+    grid-area: caja1;
+    width: 100%;
+    height: 90%;
+    column-gap: 5%;
 }
 
 .caja2 {
-grid-area: caja2;
-width: 100% ;
-height: 90%;
-  column-gap: 5%;
+    grid-area: caja2;
+    width: 100%;
+    height: 90%;
+    column-gap: 5%;
 }
 
-.caja3 { 
+.caja3 {
     display: flex;
-grid-area: caja3;
-height: 100%;
-width: 80%;
-  column-gap: 5%;
+    grid-area: caja3;
+    height: 100%;
+    width: 80%;
+    column-gap: 5%;
 }
 
-.producto img { 
-width: 80px;
+.producto img {
+    width: 80px;
 }
 
 .card-header1 {
@@ -75,24 +74,24 @@ width: 80px;
     align-items: center;
 }
 
-.card-footer { 
+.card-footer {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .cajatotal {
     display: grid;
     gap: 5%;
     grid-template-areas:
-    "cajatotal cajamonto";
+        "cajatotal cajamonto";
     width: 100%;
 }
 
 .cajamonto {
     display: flex;
     align-items: flex-end;
-    
+
 }
 
 .table {
@@ -113,8 +112,76 @@ width: 80px;
 
     .caja3 {
 
-        margin-top:50px ;
+        margin-top: 50px;
         margin-left: auto;
-        
+
     }
+}
+
+
+@media (max-width: 425px) {
+
+#pagcarrito {
+    width: 100%;
+}
+
+
+    .caja-contenedora {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .caja3 {
+
+        margin-top: 50px;
+        margin-left: auto;
+
+    }
+
+    .table {
+        width: auto;
+    }
+
+    .caja1 {
+        display: flex;
+        align-items: start;
+        grid-area: caja1;
+        width: 100%;
+        height: 90%;
+        column-gap: 5%;
+    }
+
+    .caja2 {
+        grid-area: caja2;
+        width: 100%;
+        height: 90%;
+        column-gap: 5%;
+    }
+
+    .caja3 {
+        display: flex;
+        grid-area: caja3;
+        height: 100%;
+        width: 100%;
+        column-gap: 5%;
+    }
+
+img {
+    width: 10px;
+}
+
+   .table thead th {
+        font-size: 0.3em; /* O un valor en px, como 13px */
+    }
+
+    /* Reduce el tamaño de fuente para las celdas de la tabla */
+    .table tbody td,
+    .table tbody th { /* Incluye th para la imagen del producto si el texto está en th */
+        font-size: 0.3rem;
+
+}
+
+
 }
