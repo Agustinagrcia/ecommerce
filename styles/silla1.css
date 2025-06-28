@@ -1,0 +1,206 @@
+<<<<<<< HEAD
+=======
+#pagsilla1 {
+    margin: 0%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    /* height: auto; */
+    width: 100%;
+    flex-direction: column;
+    /* justify-content: row; */
+    background-color: #caedfd;
+}
+
+.caja-contenedora {
+
+    display: grid;
+    padding: 2%;
+    gap: 15%;
+    width: 100%;
+    height: 100%;
+    background-color: #caedfd;
+    grid-template-areas:
+        "caja1 caja2"
+    ;
+    margin-top: 0%;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    /* margin-left: 100px; */
+
+
+}
+
+.caja {
+    /* border: 1px solid black; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+
+}
+
+.caja1 {
+
+    background-color: #caedfd;
+    grid-area: caja1;
+    /* width: 50%; */
+    height: auto;
+
+
+    border-radius: 8px
+}
+
+.caja2 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    background-color: white;
+    grid-area: caja2;
+    /* width: 55%; */
+
+    align-items: center;
+    border-radius: 8px;
+    /* margin-right: 100px; */
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.cantidadproducto {
+    width: 35px;
+}
+
+
+.carouseldeproductos {
+
+    background-color: #caedfd;
+    /* Consider removing fixed height or making it min-height if content varies */
+    /* height: 50vh; */
+    padding: 20px 0;
+    /* Add padding top/bottom */
+}
+
+
+
+
+
+
+
+
+.items {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+
+
+
+
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    min-width: 200px;
+    /* Ensure cards don't get too small */
+    max-width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    /* Fixed height for images to ensure consistent card heights */
+    /* Crop image to fit without distortion */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+@media (max-width: 576px) {
+
+    .caja-contenedora {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+
+    }
+
+    .caja1 {
+        width: 100%;
+
+    }
+
+    .caja2 {
+        width: 100%;
+    }
+
+    .carouseldeproductos {
+        background-color: #caedfd;
+        /* Consider removing fixed height or making it min-height if content varies */
+        /* height: 50vh; */
+        padding: 20px 0;
+        /* Add padding top/bottom */
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 1199px) {
+
+
+    .caja-contenedora {
+        height: auto;
+        gap: 1px;
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .caja1 {
+        height: auto;
+    }
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+
+
+}
+
+/* @media (min-width: 1200px) {
+    .caja1 {
+        width: auto;
+    }
+    .caja2 {
+        width: auto;
+    }
+
+} */
+>>>>>>> 8b3518192c5bd892a393b167e8be5caf823797b4

@@ -1,6 +1,11 @@
 
 .navbar {
+<<<<<<< HEAD
     background-color: rgba(151, 237, 108, 0.934);
+=======
+    /* background-image: url(../assets/Copilot_20250624_160059.png); */
+        background-color: blue;
+>>>>>>> 8b3518192c5bd892a393b167e8be5caf823797b4
 font-size: 1.3rem;
 }
 
@@ -13,10 +18,18 @@ font-size: 1.3rem;
     color: rgb(0, 0, 0);
 
 }
-
+#buscar{
+background-color: blue;
+}
+.btn.btn{
+    background-color: blue;
+}
+.dropdown-menu{
+    background-color: blue;
+}
 
 .nav {
-    --bs-nav-link-hover-color: #198754;
+    --bs-nav-link-hover-color:blue ;
     font-size: 1.2rem;
     text-decoration: none;
 }
