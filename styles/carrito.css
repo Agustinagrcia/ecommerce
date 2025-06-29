@@ -169,19 +169,24 @@
     }
 
 img {
-    width: 10px;
+    max-width: 50px;
 }
 
    .table thead th {
-        font-size: 0.3em; /* O un valor en px, como 13px */
+        font-size: 0.75em; /* O un valor en px, como 13px */
     }
 
     /* Reduce el tamaño de fuente para las celdas de la tabla */
     .table tbody td,
     .table tbody th { /* Incluye th para la imagen del producto si el texto está en th */
-        font-size: 0.3rem;
+        font-size: 0.75rem;
 
 }
+
+.table {
+    width: 100%;
+}
+
 
 
 }
