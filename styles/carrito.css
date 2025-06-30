@@ -119,11 +119,11 @@
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 425px){
 
-#pagcarrito {
-    width: 100%;
-}
+    #pagcarrito {
+        width: 100%;
+    }
 
 
     .caja-contenedora {
@@ -168,20 +168,22 @@
         column-gap: 5%;
     }
 
-img {
-    width: 10px;
-}
+    img {
+        max-width: 50px;
+    }
 
-   .table thead th {
-        font-size: 0.3em; /* O un valor en px, como 13px */
+    .table thead th {
+        font-size: 0.75em;
+        /* O un valor en px, como 13px */
     }
 
     /* Reduce el tamaño de fuente para las celdas de la tabla */
-    .table tbody td,
-    .table tbody th { /* Incluye th para la imagen del producto si el texto está en th */
-        font-size: 0.3rem;
+.table tbody td, .table tbody th {
+        /* Incluye th para la imagen del producto si el texto está en th */
+        font-size: 0.75rem;
 
-}
-
-
+    }
+    .table {
+        width: 100%;
+    }
 }

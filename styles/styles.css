@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.cart-button {
+    display: flex;
+    align-items: center;
+    background-color:#04a1d8;
+    color: rgb(9, 0, 0);
+    border: 1px solid color black;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.cart-button:hover {
+    background-color:#04a1d8;
+}
+
+.cart-button span {
+    margin-left: 10px;
+}
