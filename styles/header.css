@@ -1,7 +1,6 @@
 
 .navbar {
-    /* background-image: url(../assets/Copilot_20250624_160059.png); */
-        background-color: blue;
+    background-color: #cae3fb;
 font-size: 1.3rem;
 }
 
@@ -11,21 +10,24 @@ font-size: 1.3rem;
 }
 
 .btn-outline-success {
+    border: 1px solid #b2d1ef;
     color: rgb(0, 0, 0);
+    border: solid 1px #01243c;
 
 }
-#buscar{
-background-color: blue;
+.btn-outline-success:hover{
+    background-color: #b2d1ef;
+        border: solid 1px #01243c;
+
 }
-.btn.btn{
-    background-color: blue;
-}
+
 .dropdown-menu{
-    background-color: blue;
+    background-color: white;
 }
 
 .nav {
-    --bs-nav-link-hover-color:blue ;
+    --bs-nav-link-hover-color: #01243c;
+;
     font-size: 1.2rem;
     text-decoration: none;
 }
@@ -39,3 +41,23 @@ a {
         width: 15%;
         height: auto;
     }
+.cart-button {
+    display: flex;
+    align-items: center;
+    background-color: #cae3fb;
+    color: rgb(9, 0, 0);
+    border: 1px solid color black;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.cart-button:hover {
+    background-color: #b2d1ef;
+}
+
+.cart-button span {
+    margin-left: 10px;
+}

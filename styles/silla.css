@@ -1,9 +1,7 @@
 main {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .h3 {
@@ -21,7 +19,7 @@ main {
   border-radius: 10px;
   padding: 20px;
   text-align: center;
-  width: 350px;
+  width: 280px;
 
 }
 
