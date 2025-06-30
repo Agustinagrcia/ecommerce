@@ -1,5 +1,4 @@
-
-#pagsilla1 {
+#pagsilla2 {
     margin: 0%;
     padding: 4%;
     display: flex;
@@ -29,6 +28,7 @@
 
 
 }
+
 
 .caja1 {
 
@@ -220,10 +220,7 @@ img {
         width: auto;
     }
 
-<<<<<<< HEAD
 } */
-
-
 
 
 @media (max-width:768) {

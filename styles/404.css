@@ -1,0 +1,32 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    background-color: #01243c;
+}
+
+#error{ 
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.boton{
+    text-align: center;
+    padding-bottom: 5%;
+
+}
+
+section button{
+    cursor: pointer;
+}
+
+.boton:hover{
+    color: #0886b0;
+}

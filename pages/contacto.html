@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/footer.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styles/contacto.css">
+    <title>Contacto</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -23,42 +25,116 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../pages/producto.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <nav class="navbar">
-                        <form class="container-fluid justify-content-start">
-                            <a href="../pages/login.html"><button class="btn btn-outline-success me-2"
-                                    type="button">Ingreso</button></a>
-                            <a href="../pages/registro.html"><button class="btn btn-outline-success me-2"
-                                    type="button">Registro</button></a>
-                        </form>
-                    </nav>
-                    <div>
-                        <a href="../pages/carrito.html" class="cart-button">
-                            🛒 <span>Carrito</span>
-                        </a>
-                    </div>
+                        <ul class="nav nav-underline">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Categoria
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/sillas.html">Sillas</a></li>
+                                    <li><a class="dropdown-item" href="../pages/escritorio.html">Escritorios</a></li>
+                                    <li><a class="dropdown-item" href="../pages/computadoras.html">Computadoras</a></li>
+                                    <li><a class="dropdown-item" href="../pages/fichero.html">Ficheros</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <nav class="navbar">
+                            <form class="container-fluid justify-content-start">
+                                <a href="../pages/login.html"><button class="btn btn-outline-custom btn"
+                                        type="button">Ingreso</button></a>
+                                <a href="../pages/registro.html"><button class="btn btn-outline-custom btn"
+                                        type="button">Registro</button></a>
+                            </form>
+
+                        </nav>
+
                 </div>
                 <nav class="navbar">
                     <div class="container-fluid">
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            <button class="btn btn-outline-custom btn" type="submit">Buscar</button>
                         </form>
+                        <div>
+                            <a href="../pages/carrito.html" class="cart-button-custom btn">
+                                🛒 <span>Carrito</span>
+                            </a>
+                        </div>
                     </div>
                 </nav>
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <section class="container">
+            <section class="section1">
+                <div class="formulario">
+                    <div class="form">
+                        <div class="titulo">
+                            <h2>¡Hablemos!</h2>
+                            <p>Deja tu consulta y te responderemos a la brevedad.
+                                <br>¡Muchas gracias!
+                            </p>
+                        </div>
+                        <form action="">
+                            <div class="inputBox">
+                                <label for="">Nombre y Apellido</label>
+                                <input type="text" placeholder="Ej: Juan Pérez">
+                            </div>
+                            <div class="inputBox">
+                                <label for="">E-mail</label>
+                                <input type="email" placeholder="juan.perez@gmail.com">
+                            </div>
+                            <div class="inputBox">
+                                <label for="">Tu Consulta</label>
+                                <textarea name="" id="" cols="30" rows="5" placeholder="Tu Mensaje"></textarea>
+                            </div>
+                            <div class="boton">
+                                <a href="../Pages/error404.html">
+                                    <button type="button" class="btn btn-outline-light"><a
+                                            href="../pages/404.html">Enviar Mensaje</a></button>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <section>
+                    <img src="../assets/4957160.png" alt="Consultas" id="imgcontacto">
+                </section>
+            </section>
+        </section>
+        <br>
+        <section class="Mapa-texto">
+            <div class="titulo2">
+                <h2>¿Dónde nos encontramos?</h2>
+            </div>
+            <div class="ubicacion">
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d688.2358204930783!2d-64.25997820451825!3d-27.789751936185148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b52118c75104f%3A0x92f549e4c0f6f571!2sMinisterio%20de%20Econom%C3%ADa%20de%20Santiago%20del%20Estero!5e1!3m2!1ses!2sar!4v1750893440934!5m2!1ses!2sar"
+                        width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </iframe>
+                </div>
+                <div>
+
+                    <p><b>WORKIFY</b>
+                        <br>
+                        Av. Belgrano Sur 524
+                        <br>
+                        Santiago del Estero
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
         <div id="info">
             <h2>SERVICIO AL CLIENTE</h2>
@@ -73,10 +149,12 @@
                     alt="facebook logo"></a>
             <a href="https://web.whatsapp.com/" target="_blank"> <img src="../assets/whatsapp-logo-png-white.png"></a>
         </div>
-        <div id="contenedorlogodelsitio"><a href="../index.html"><img src="../assets/logoworkify.png" alt="logo"></a></div>
+        <div id="contenedorlogodelsitio"><a href="../index.html"><img src="../assets/logoworkify.png" alt="logo"></a>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
